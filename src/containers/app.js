@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Router,Route,Link,Switch} from 'react-router-dom';
 import { Provider, connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import Index from '../components/Index';
+import Index from '../components/index';
 import NotFoundPage from '../components/notFoundPage';
 
 import store from '../reducer/store';
